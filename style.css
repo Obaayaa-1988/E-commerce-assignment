@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Cormorant+Garamond:wght@300&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Cormorant+Garamond:wght@300&family=Kalam:wght@300&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Assistant:wght@200&family=Corinthia:wght@700&family=Cormorant+Garamond:wght@300&family=Kalam:wght@300&family=Poppins&family=Tajawal:wght@200;300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* Header and Navigation*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    padding-top: 2rem;
+    
+
+}
+nav{
+    margin-left: -20rem;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+
+nav ul li a:hover{
+    color: black;
+    opacity: 0.5;
+}
+
+nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    margin-left: 50px;;
+}
+
+.logo h2{
+    margin-top: -1rem;
+    font-size: 3.2rem;
+    font-family: 'Corinthia';
+}
+
+/*styling the toggle*/
+.search{
+    position: relative;
+}
+
+input{
+    width:15px;
+    height:15px;
+    padding: 1rem;
+    border: none;
+    transition: ease 0.35s;
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    height: 15px;
+    width: 15px;
+    padding: 1rem;
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    transition: ease 0.35s;
+    background: none;
+} 
+
+button:focus{
+    outline: none;
+ }
+
+ .fa{
+     font-size: 3rem;
+     margin-top: -0.5rem;
+ }
+
+ .search.active input{
+     width:200px;
+ }
+ .search.active button{
+     transform: translateX(200px);
+ }
+
+
+
+
+
+/* showcase*/
+
+#showcase{
+    background-image: url(images/img12.jpg);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+#showcase h3{
+    color: #282929;
+    font-size: 2rem;
+    font-family: 'Cormorant Garamond';
+    animation: swing 3s;;
+}
+
+@keyframes swing{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        transform: rotateX(360deg);
+        letter-spacing: 0.5em;
+    }
+}
+
+
+.ash{
+    color: coral;
+    font-size: 2.2rem;
+}
+
+.bella{
+    font-family: 'Kalam';
+}
+
+.btn1{
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color:rgb(223, 67, 10);
+    color: white;
+    border: none;
+}
+.btn1:hover{
+    background-color: coral;
+    color: white;
+}
+
+.greater{
+    margin-left: 0.3rem;
+}
+
+/*styling section1*/
+.recent{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.8rem;
+}
+
+#main-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
+    grid-gap: 15px;
+    justify-content: center;
+}
+#main-cards img{
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#main-text{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 1.8rem;
+    grid-gap: 10px;
+    text-align: center;
+}
+
+.product{
+    margin-left: 2rem;
+    padding: 2rem;
+}
+/*section2*/
+#section2{
+    margin-top: 2rem;
+    background-color: rgb(243, 233, 231);
+    font-family: 'Abel';
+    position: relative;
+    
+    
+    
+}
+
+
+
+.prev{
+    position: absolute;
+    top: 60%;
+    margin-left: -70px;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.next{
+    position: absolute;
+    top: 60%;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 1150px;
+    cursor: pointer;
+}
+
+
+
+#section2 h5{
+    font-size: 1.5rem;
+}
+
+.container{
+    width:80%;
+    margin: auto; 
+
+}
+.story{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.story h2{
+    padding-top: 4rem;
+}
+
+.story p{
+    padding-top: 2.5rem;
+    width: 70%;
+    line-height: 1.5rem;
+    word-spacing: 0.5rem;
+    color: rgb(165, 164, 164);
+    font-size: 1.2rem;
+}
+
+.story .read{
+    color: coral;
+    font-size: 1rem;
+    padding: 1rem;
+
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.wrapper img{
+    height: 180px;
+    width: 180px;
+    transition: transform 2s;
+}
+
+.wrapper img:hover{
+    transform: scale(1.5);
+    border-radius: 5px;
+
+}
+
+.insta{
+    text-align: center;
+    padding: 2rem;
+
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 4rem;
+
+}
+.social i{
+    margin-left: 1rem;
+}
+
+.social a{
+    color: black;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+/*footer*/
+footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;       
+    align-items: center;
+    padding: 4rem;
+    margin-left: 2rem;
+    
+}
+
+footer .power{
+    color: rgb(192, 108, 77);
+    font-family: 'Cormorant';
+    font-size: 0.9rem;
+    margin-right: 2rem;
+}
+
+footer .copy{
+    color: rgb(158, 149, 147);
+    font-family: 'Cormorant';
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin-right: 1rem;
+}
+
+footer .theme{
+    color: rgb(190, 112, 83);
+    font-family: 'Cormorant';
+    font-size: 0.7rem;
+}
