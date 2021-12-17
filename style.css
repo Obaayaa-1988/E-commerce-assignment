@@ -89,11 +89,6 @@ button:focus{
  }*/
 
 
- 
-
-
-
-
 
 /* showcase*/
 
@@ -180,14 +175,21 @@ button:focus{
     text-align: center;
 }
 
+#main-text h5{
+    font-family: 'Abel';
+    color: rgb(107, 104, 104);
+    font-size: 1rem;
+
+
+}
+
 .product{
     margin-left: 2rem;
     padding: 2rem;
 }
 /*section2*/
 #section2{
-    margin-top: 2remk'
-    ;
+    margin-top: 2rem;
     background-color: rgb(243, 233, 231);
     font-family: 'Abel';
     position: relative;
