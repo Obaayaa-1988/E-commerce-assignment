@@ -22,8 +22,7 @@ header{
     justify-content: space-between;
     height: 80px;
     width: 100%;
-    padding-top: 2rem;
-    
+    padding-top: 2rem; 
 
 }
 nav{
@@ -57,14 +56,8 @@ nav ul li a{
 }
 
 /*styling the toggle*/
-.search{
-    position: relative;
-}
 
 input{
-    width:15px;
-    height:15px;
-    padding: 1rem;
     border: none;
     transition: ease 0.35s;
 }
@@ -74,13 +67,7 @@ input:focus{
 }
 
 button{
-    height: 15px;
-    width: 15px;
-    padding: 1rem;
     border: none;
-    position: absolute;
-    top: 0;
-    left: 0;
     cursor: pointer;
     transition: ease 0.35s;
     background: none;
@@ -92,15 +79,14 @@ button:focus{
 
  .fa{
      font-size: 3rem;
-     margin-top: -0.5rem;
  }
 
  .search.active input{
-     width:200px;
+     width:100px;
  }
- .search.active button{
-     transform: translateX(200px);
- }
+ /*.search.active button{
+     transform: translateX(1px);
+ }*/
 
 
 
@@ -198,7 +184,8 @@ button:focus{
 }
 /*section2*/
 #section2{
-    margin-top: 2rem;
+    margin-top: 2remk'
+    ;
     background-color: rgb(243, 233, 231);
     font-family: 'Abel';
     position: relative;
