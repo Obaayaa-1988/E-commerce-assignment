@@ -1,0 +1,374 @@
+
+
+
+@media screen and (max-width:600px) {
+    
+    .nav-ul{
+        display:none;
+        width: 100%;
+        flex-direction: column;
+        background-color: white;
+        
+    }
+
+    .nav-ul.show{
+        display: flex;
+
+    }
+
+    .hamburger{
+        display: block;
+        margin-left: 30rem;
+    }
+
+    .btt1 i{
+        color: coral;
+    
+    }
+
+    .nav-ul li a{
+        padding: 10px;
+        color: coral;
+        font-weight: bolder;
+        font-size: 1rem;
+        margin-left: 25rem;
+        
+
+    }
+
+    #showcase h3{
+        width: 50%;
+    }
+
+    .recent{
+        display:flex;
+        justify-content: space-around;
+    }
+   
+
+   #main-cards h5{
+    text-align: center;
+   }
+
+   .product{
+       text-align: center;
+   }
+
+   .prev{
+       display: none;
+   }
+
+   .next{
+       display: none;
+   }
+
+   .story p{
+    width: 90%;
+    line-height: 1.4rem;
+    font-size: 1.1rem; 
+    
+}
+
+.wrapper{
+display: block;
+margin-left: 4rem;
+overflow: hidden;
+}
+
+.wrapper img{
+    height: 300px;
+    width: 300px;
+    margin-bottom: 2rem;
+    margin: 0 auto;
+
+}
+
+footer p{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+footer .power{
+    margin: 0.8rem;
+}
+
+footer .copy{
+    margin: 1rem;
+}
+
+
+
+  
+}
+
+
+
+/* styling the min-width*/
+
+
+@media screen and (min-width:600px) and (max-width:760px) {
+    /*
+    *{
+        overflow: hidden;
+    }*/
+
+    .nav-ul{
+        display:none;
+        width: 100%;
+        flex-direction: column;
+        background-color: whitesmoke;
+        margin-top: 2.5rem;
+        
+    }
+
+    .nav-ul.show{
+        display: flex;
+
+    }
+
+    .hamburger{
+        display: block;
+        margin-top: -2rem ;
+        margin-left: 41rem;
+    }
+
+    .btt1 i{
+        color: coral;
+    
+    }
+
+    .nav-ul li a{
+        padding: 10px;
+        color: coral;
+        font-weight: bolder;
+        font-size: 1rem;
+        margin-left: 27rem;  
+
+    }
+    
+    #showcase h3{
+        width: 40%;
+    }
+   
+
+   #main-cards h5{
+    text-align: center;
+   }
+
+   .product{
+       text-align: center;
+   }
+
+   .story p{
+    width: 80%;
+    line-height: 1.4rem;
+    font-size: 1.1rem; 
+    text-align: justify;
+    
+}
+
+.wrapper{
+    display: block;
+    align-items: center;
+    overflow: hidden;
+    }
+    
+    .wrapper img{
+        height: 300px;
+        width: 300px;
+        margin-bottom: 2rem;
+        margin: auto;
+    
+    }
+
+    .prev{
+        display: none;
+    }
+
+    .next{
+        display: none;
+    }
+
+    footer p{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    footer .power{
+        margin: 0.8rem;
+    }
+    
+    footer .copy{
+        margin: 1rem;
+    }
+ 
+
+  
+}
+
+
+/*min-width 768px for ipads etc*/
+
+
+@media screen and (min-width:768px) and (max-width: 990px) {
+   /*
+   
+    *{
+        overflow-x: hidden;
+    }*/
+
+
+    .nav-ul{
+        display:none;
+        width: 100%;
+        flex-direction: column;
+        background-color: white;
+        
+    }
+
+    .nav-ul.show{
+        display: flex;
+
+    }
+
+    .hamburger{
+        display: block;
+        margin-left: 30rem;
+    }
+
+    .btt1 i{
+        color: coral;
+    
+    }
+
+    .nav-ul li a{
+        padding: 10px;
+        color: coral;
+        font-weight: bolder;
+        font-size: 1rem;
+       margin-left: 30rem;
+        
+
+    }
+
+
+    #showcase h3{
+        width: 60%;
+    }
+
+    .recent{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+   
+   
+   #main-cards h5{
+    text-align: center;
+   }
+
+   .product{
+       text-align: center;
+   }
+
+   .story p{
+    width: 80%;
+    line-height: 1.4rem;
+    font-size: 1.1rem; 
+    text-align: justify;
+    
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    overflow: hidden;
+    }
+    
+    .wrapper img{
+        height: 300px;
+        width: 300px;  
+    }
+
+    .prev{
+        display: none;
+    }
+
+    .next{
+        display: none;
+    }
+
+    footer p{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    
+    footer .theme{
+        margin-top: 1rem;
+        margin-left: 7rem;
+    }
+}
+
+
+/*min-width 992px for ipads pro and laptops etc*/
+
+
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+
+
+    nav{
+        margin-left: 2rem;
+    }
+
+
+    #main-cards{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
+    }
+    #main-cards img{
+        width: 100%;
+    
+    }
+
+    .product{
+        margin-left: 3rem;
+    }
+
+    #main-cards h5{
+        text-align: center;
+        
+    }
+
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        overflow: hidden;
+        }
+        
+        .wrapper img{
+            height: 250px;
+            width: 250px;  
+        }
+    
+        .prev{
+            display: none;
+        }
+    
+        .next{
+            display: none;
+        }
+    
+}
+
+
+
+
+
+
+
+
