@@ -154,9 +154,9 @@ input:focus{
      width:50px;
  }
  
- /*.search.active .btt1{
+ .search.active .btt1{
      transform: translateX(50);
- }*/
+ }
 
 /* showcase*/
 

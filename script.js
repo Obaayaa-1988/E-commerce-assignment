@@ -2,7 +2,7 @@
 
 const container = document.querySelector('.search');
 
-const btn1 = document.querySelector('button');
+const btn1 = document.querySelector('.btt1');
 
 const input1 = document.querySelector('input');
 

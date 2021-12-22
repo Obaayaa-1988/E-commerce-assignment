@@ -3,6 +3,10 @@
 
 @media screen and (max-width:600px) {
     
+
+    nav{
+        margin-top: 1rem;
+    }
     .nav-ul{
         display:none;
         width: 100%;
@@ -18,6 +22,7 @@
 
     .hamburger{
         display: block;
+        margin-top: -2rem;
         margin-left: 30rem;
     }
 
@@ -31,8 +36,7 @@
         color: coral;
         font-weight: bolder;
         font-size: 1rem;
-        margin-left: 25rem;
-        
+        margin-left: 25rem;  
 
     }
 
@@ -106,7 +110,7 @@ footer .copy{
 /* styling the min-width*/
 
 
-@media screen and (min-width:600px) and (max-width:760px) {
+@media screen and (min-width:600px) and (max-width:768px) {
     /*
     *{
         overflow: hidden;
@@ -210,13 +214,15 @@ footer .copy{
 /*min-width 768px for ipads etc*/
 
 
-@media screen and (min-width:768px) and (max-width: 990px) {
+@media screen and (min-width:768px) and (max-width: 992px) {
    /*
    
     *{
         overflow-x: hidden;
     }*/
-
+    nav{
+        margin-top: 1rem;
+    }
 
     .nav-ul{
         display:none;
@@ -290,6 +296,7 @@ footer .copy{
     .wrapper img{
         height: 300px;
         width: 300px;  
+        margin: 0 auto;
     }
 
     .prev{
