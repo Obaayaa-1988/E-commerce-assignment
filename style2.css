@@ -7,6 +7,7 @@
     nav{
         margin-top: 1rem;
     }
+    
     .nav-ul{
         display:none;
         width: 100%;
@@ -108,7 +109,6 @@ footer .copy{
 
 
 /* styling the min-width*/
-
 
 @media screen and (min-width:600px) and (max-width:768px) {
     /*
@@ -214,12 +214,14 @@ footer .copy{
 /*min-width 768px for ipads etc*/
 
 
+
 @media screen and (min-width:768px) and (max-width: 992px) {
    /*
    
     *{
         overflow-x: hidden;
     }*/
+    /*
     nav{
         margin-top: 1rem;
     }
@@ -255,6 +257,10 @@ footer .copy{
        margin-left: 30rem;
         
 
+    }*/
+
+    nav{
+        margin-left: 3rem;
     }
 
 
